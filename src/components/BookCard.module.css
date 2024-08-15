@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #303030;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.card img {
+  width: 6rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  margin-right: 3rem;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info span {
+  margin-right: 2rem;
+  font-size: 1.36rem;
+  color: #959595;
+}
+.card button {
+  height: fit-content;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 250ms ease-in 20ms;
+  -webkit-transition: all 250ms ease-in 20ms;
+  -moz-transition: all 250ms ease-in 20ms;
+  -ms-transition: all 250ms ease-in 20ms;
+  -o-transition: all 250ms ease-in 20ms;
+}
+.card button:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+@media screen and (max-width:560px) {
+    .card img{
+        width: 7rem;
+    }
+}

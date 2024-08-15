@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  background-color: #7c6ee9;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.card img {
+  width: 3rem;
+  margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 560px) {
+  .card {
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .card img{
+    margin-right: 0;
+  }
+}
